@@ -1,5 +1,30 @@
-.hero{
+.background-main{
     width: 100%;
-    margin: 0 auto;
-    height: auto;
+}
+.image img{
+    border-radius: 50%;
+    border: 20px solid black;
+    width: 400px;
+    height: 400px;
+    align-items: center;
+    
+}
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+.image {
+    display: flex;
+    justify-content: space-between;
+}
+main{
+    height: 300;
+    background-color: #3e3e3e;
+    margin: 0;
+    
+}
+.hero{
+    margin: 0;
+    
 }
