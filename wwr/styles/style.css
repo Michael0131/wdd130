@@ -38,6 +38,9 @@ main section {
     text-align: center;
     font-family: Roboto, sans-serif;
 }
+main section img{
+    box-sizing: border-box;
+}
 
 #background {
     height: 725px;
@@ -55,6 +58,7 @@ body {
 .home-title{
     font-size: 2em;
     font-family: Roboto, sans-serif;
+    margin-top: 10px;
 }
 
 header {
@@ -72,6 +76,8 @@ header {
     font-family: Roboto, sans-serif;
     font-size: 18px;
     padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -103,6 +109,7 @@ footer {
     color: aquamarine;
     font-family: Roboto, sans-serif;
     padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -145,6 +152,12 @@ h4 {
 .card {
     width: 500px;
     margin: 0 auto;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid black;
 }
 
 #hero-img {
