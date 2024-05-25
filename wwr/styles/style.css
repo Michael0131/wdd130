@@ -47,6 +47,9 @@ main section img{
     background-color: beige;
     margin: 0 auto;
 }
+::content{
+    border: 1px ;
+}
 
 body {
     background-color: whitesmoke;
