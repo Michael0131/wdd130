@@ -6,7 +6,10 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--headline-color-on-white);
-  }
+}
+h2{
+    margin: 0;
+}
 
 
 nav a {
@@ -45,6 +48,13 @@ main section {
 body {
     background-color: whitesmoke;
     font-family: Roboto, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+.home-title{
+    font-size: 2em;
+    font-family: Roboto, sans-serif;
 }
 
 header {
@@ -60,6 +70,7 @@ header {
     text-align: center;
     margin: 0 auto;
     font-family: Roboto, sans-serif;
+    font-size: 18px;
 }
 
 .book:hover, .join:hover {
@@ -70,6 +81,17 @@ header {
 .msg {
     background-color: bisque;
     font-family: Roboto, sans-serif;
+    line-height: 1.5em
+}
+.msg h2 {
+    color: plum;
+    font-family: Roboto, sans-serif;
+}
+
+.msg p {
+    color: burlywood;
+    font-family: Roboto, sans-serif;
+    font-size: .8em;
 }
 
 footer {
@@ -95,16 +117,6 @@ footer a:hover {
 
 h4 {
     color: goldenrod;
-}
-
-.msg h2 {
-    color: plum;
-    font-family: Roboto, sans-serif;
-}
-
-.msg p {
-    color: burlywood;
-    font-family: Roboto, sans-serif;
 }
 
 .logo {
