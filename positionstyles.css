@@ -36,59 +36,70 @@
 .content2 {
   /* This is the parent of the activity 2 boxes. */
   display: grid;
-  grid-template-columns:(repeat 5, 100px);
+  grid-template-columns:(repeat 5, 50px);
+  width: 250px;
+  height: 250px;
 
 }
 .red2 {
-  width: 200px; 
-  height: 200px;
+  width: 100px; 
+  height: 100px;
   background-color: red;
-  top: 0;
-  left: 0;
+  grid-column:0px/100px;
+  grid-row: 0px/100px;
   z-index: 4; 
 } 
 .green2 { 
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: green;
-  top: 100px;
-  left: 100px;
+  grid-column: 50px/150px;
+  grid-row: 50px/150px;
   z-index: 3; 
 } 
 .yellow2 {
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: gold;
+  grid-column: 100px/200px;
+  grid-row: 100px/200px;
   z-index: 2; 
 } 
 .blue2 {
-  width: 200px; 
-  height: 200px; 
+  width: 100px; 
+  height: 100px; 
   background-color: blue;
+  grid-column: 150px/250px;
+  grid-row: 150px/250px;
   z-index: 1; 
 } 
 /* Activity 3 styles */ 
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid;
+  grid-template-columns: (repeat 8, 100px);
 }
 .red3 {
-  width: 100px; 
+  width: 800px; 
   height: 100px; 
-  background-color: red; 
+  background-color: red;
+  grid-row: 1/2;
 } 
 .green3 {
-  width: 100px; 
-  height: 100px; 
+  width: 400px; 
+  height: 200px; 
   background-color: green;
+  grid-row: 2/4;
 } 
 .yellow3 {
-  width: 100px; 
-  height: 100px; 
+  width: 300px; 
+  height: 200px; 
   background-color: gold; 
 } 
 .blue3 {
-  width: 100px;
-  height: 100px; 
+  width: 800px;
+  height: 100px;
+  grid-row: 4/5;
   background-color: blue; 
 } 
 /* Activity 4 styles */ 
