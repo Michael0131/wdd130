@@ -82,11 +82,6 @@ body {
     margin: 0;
     padding: 0;
 }
-.home-title{
-    font-size: 2em;
-    font-family: Roboto, sans-serif;
-    margin-top: 10px;
-}
 
 header {
     background-color: #3b3632;
@@ -97,7 +92,7 @@ header {
 
 .book, .join {
     background-color: grey;
-    color: #5c4736;
+    color: white;
     text-decoration: none;
     display: inline-block;
     text-align: center;
@@ -125,7 +120,7 @@ header {
     box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
-    color: plum;
+    color: slategray;
     font-family: Roboto, sans-serif;
 }
 
@@ -169,8 +164,10 @@ footer .social img{
 }
 
 .home-title {
-    color: #5c4736;
+    color: white;
     font-family: Roboto, sans-serif;
+    font-size: 2.5em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -240,6 +237,24 @@ h4 {
 .card-img, .mountains {
     width: 100%;
 }
+/* Start rivers.html css*/
+
+.riverds-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+}
+.salmon-img, .gray-img, .grand-img{
+    width: 900px;
+    height: 800px;
+
+}
+.salmon-img, .grand-img{
+    justify-items: left;
+
+}
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
