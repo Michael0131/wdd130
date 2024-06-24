@@ -241,7 +241,7 @@ h4 {
 
 /* Container for the rivers page */
 #rivers-page {
-    max-width: 1200px;
+    max-width: 1600px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -281,9 +281,9 @@ h4 {
 }
 
 .river-section .river-img {
-    width: 300px;
-    height: auto;
-    border-radius: 10px;
+    width: 700px;
+    height: 600px;
+    border-radius: 25px;
 }
 
 .river-section .river-info {
@@ -298,7 +298,7 @@ h4 {
 
 .river-section .river-description {
     line-height: 1.8;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 
