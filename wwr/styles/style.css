@@ -239,19 +239,7 @@ h4 {
 }
 /* Start rivers.html css*/
 
-.riverds-grid{
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-}
-.river-img{
-    width: 700px;
-    height: 600px;
-    justify-items: left;
-    border-radius: 25px;
-
-}
-
-/* this is the start of the rivers page css/
+/* Container for the rivers page */
 #rivers-page {
     max-width: 1200px;
     margin: 0 auto;
@@ -273,12 +261,11 @@ h4 {
     font-size: 1.2em;
     line-height: 2;
     margin-bottom: 100px;
-    justify-content: left;
 }
 
-.rivers-content .rivers-grid {
+/* River sections grid */
+.rivers-grid {
     display: grid;
-    grid-template-columns: 1fr;
     gap: 30px;
 }
 
@@ -293,34 +280,27 @@ h4 {
     background-color: #fafafa;
 }
 
-/* .river-section img {
-    width: 100%;
-    max-width: 300px;
+.river-section .river-img {
+    width: 300px;
+    height: auto;
     border-radius: 10px;
-} */
-
-.river-info {
-    flex: 1;
-    justify-content: left;
 }
 
-.river-title {
+.river-section .river-info {
+    flex: 1;
+    text-align: left;
+}
+
+.river-section .river-title {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
 
-.river-description {
-    line-height: 2.5;
-    justify-content: left;
+.river-section .river-description {
+    line-height: 1.8;
+    font-size: 1.2em;
 }
 
-/* Footer styling */
-#rivers-page footer {
-    padding: 20px 0;
-    text-align: center;
-    border-top: 2px solid #ccc;
-    margin-top: 40px;
-}
 
 /* #rivers-page footer p {
     margin-bottom: 10px;
