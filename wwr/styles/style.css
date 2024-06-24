@@ -257,6 +257,7 @@ h4 {
     margin-bottom: 20px;
 }
 
+
 .rivers-content .opening-statement {
     font-size: 1.2em;
     line-height: 2;
@@ -295,12 +296,17 @@ h4 {
     font-size: 1.5em;
     margin-bottom: 10px;
 }
+.river-section.gray-canyon {
+    flex-direction: row-reverse;
+}
 
 .river-section .river-description {
     line-height: 1.8;
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
-
+.rivers-section .gray-canyon{
+    justify-content: right;
+}
 
 /* #rivers-page footer p {
     margin-bottom: 10px;
