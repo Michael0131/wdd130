@@ -243,17 +243,97 @@ h4 {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
 }
-.salmon-img, .gray-img, .grand-img{
-    width: 900px;
-    height: 800px;
-
-}
-.salmon-img, .grand-img{
+.river-img{
+    width: 700px;
+    height: 600px;
     justify-items: left;
+    border-radius: 25px;
 
 }
 
+/* this is the start of the rivers page css/
+#rivers-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+}
 
+/* Main content styling */
+.rivers-content {
+    padding: 20px 0;
+}
+
+.rivers-content .main-title {
+    font-size: 6em;
+    margin-bottom: 20px;
+}
+
+.rivers-content .opening-statement {
+    font-size: 1.2em;
+    line-height: 2;
+    margin-bottom: 100px;
+    justify-content: left;
+}
+
+.rivers-content .rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+}
+
+/* River section styling */
+.river-section {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+/* .river-section img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+} */
+
+.river-info {
+    flex: 1;
+    justify-content: left;
+}
+
+.river-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.river-description {
+    line-height: 2.5;
+    justify-content: left;
+}
+
+/* Footer styling */
+#rivers-page footer {
+    padding: 20px 0;
+    text-align: center;
+    border-top: 2px solid #ccc;
+    margin-top: 40px;
+}
+
+/* #rivers-page footer p {
+    margin-bottom: 10px;
+}
+
+#rivers-page footer .social a {
+    margin: 0 10px;
+}
+
+#rivers-page footer .social img {
+    width: 24px;
+    height: 24px;
+} */
 
 
 @media screen and (max-width: 900px) {
