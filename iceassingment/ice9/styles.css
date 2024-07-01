@@ -22,17 +22,20 @@ body {
     padding: 15px;
 }
 .post-card-content .date {
-    color: #888;
+    color: darkcyan;
     font-size: 0.8em;
     margin-bottom: 5px;
+    text-align: center;
 }
 .post-card-content .title {
     font-size: 1.5em;
     margin: 5px 0;
+    text-align: center;
 }
 .post-card-content .description {
     font-size: 1em;
     color: #555;
+    text-align: center;
 }
 .post-card-footer {
     display: flex;
@@ -44,4 +47,5 @@ body {
 }
 .post-card-footer div {
     text-align: center;
+    flex: 1;
 }
